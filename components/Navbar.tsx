@@ -99,7 +99,7 @@ export default function Navbar() {
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
-            className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+            className="p-2 text-yellow-500 rounded-md outline-none focus:border-gray-400 focus:border"
             onClick={() => setNavbar(!navbar)}
           >
             {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
